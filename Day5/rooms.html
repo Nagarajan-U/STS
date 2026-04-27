@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+    <style>
+        h2{
+            margin-top: 250px;
+            text-align: center;
+        }
+        table{
+            margin-left: 615px;
+        }
+    </style>
+</head>
+<body style="background-color: antiquewhite;">
+    <section id="rooms">
+        <h2>Room Availability Matrix</h2>
+        <table border="2" style="border-radius: 3px; border: solid;">
+            <thead>
+                <tr>
+                    <th>Room </th>
+                    <th>Type</th>
+                    <th>Floor</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>Single</td>
+                    <td>1st</td>
+                    <td>Available</td>
+                    <td><button>Assign</button></td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Double</td>
+                    <td>1st</td>
+                    <td>Occupied</td>
+                    <td><button style="background:#e67e22;">Details</button></td>
+                </tr>
+                <tr>
+                    <td>201</td>
+                    <td>Suite</td>
+                    <td>2nd</td>
+                    <td>Available</td>
+                    <td><button>Assign</button></td>
+                </tr>
+                <tr>
+                    <td>202</td>
+                    <td>Suite</td>
+                    <td>2nd</td>
+                    <td style="color: blue;">Cleaning</td>
+                    <td><button disabled style="background:gray; color: red;">Wait</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+</body>
+</html>
